@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple Webpage</title>
+  <style>
+    /* CSS Styling */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f9ff;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px;
+      background-color: #007acc;
+      color: white;
+    }
+
+    section {
+      margin: 20px auto;
+      max-width: 800px;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    img {
+      width: 100%;
+      max-width: 400px;
+      display: block;
+      margin: 20px auto;
+      border-radius: 8px;
+    }
+
+    a {
+      color: #007acc;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    button {
+      display: block;
+      margin: 20px auto;
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #007acc;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #005f99;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>My Simple Website</h1>
+    <p>Using HTML, CSS, and JavaScript</p>
+  </header>
+
+  <section>
+    <h2>About This Page</h2>
+    <p>This is a basic example of a webpage with structured content and interactive behavior.</p>
+    
+    <img src="https://1.bp.blogspot.com/-I_-I1T-ippc/YJ4PkVYou4I/AAAAAAAACVA/T7HrplZhOWsi-ir05Hpno_Mqg4djQ10_ACPcBGAsYHg/s2048/html%2Bcss%2Band%2Bjavascript.jpeg" alt="Sample Image" />
+    
+    <p>Visit <a href="https://www.geeksforgeeks.org/learn-web-development-basics-with-html-css-and-javascript/" target="_blank">geeksforgeeks</a> for more information.</p>
+
+    <button onclick="showAlert()">Click Me!</button>
+  </section>
+
+  <script>
+    // JavaScript Alert Function
+    function showAlert() {
+      alert("Hello! You clicked the button.");
+    }
+  </script>
+</body>
+</html>
